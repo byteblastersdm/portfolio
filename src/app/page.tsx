@@ -15,7 +15,7 @@ const sectionVariants = {
 export default function Home() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const toggleDrawer = (open) => () => {
+  const toggleDrawer = (open: boolean) => () => {
     setDrawerOpen(open);
   };
 
