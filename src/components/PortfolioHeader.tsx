@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from '../styles/PortfolioHeader.module.css';
 
 const PortfolioHeader: React.FC = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
+    // const [menuOpen, setMenuOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+    // const toggleMenu = () => {
+    //     setMenuOpen(!menuOpen);
+    // };
 
     return (
         <div className={styles.portfolioHeader}>

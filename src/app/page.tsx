@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import Link from 'next/link';
 import PortfolioHeader from '@/components/PortfolioHeader';
-import { s, style } from 'framer-motion/client';
 
 // Define animation variants for transitions
 const sectionVariants = {

@@ -33,6 +33,7 @@ console.log(response);
         setStatus('Failed to send email.');
       }
     } catch (error) {
+      console.log(error);
       setStatus('Error occurred while sending email.');
     }
   };
