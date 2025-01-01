@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/PortfolioHeader.module.css';
+import Image from 'next/image';
 
 const PortfolioHeader: React.FC = () => {
     // const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +37,8 @@ const PortfolioHeader: React.FC = () => {
                 </div>
                 <div className={styles.imageSection}>
                     <div className={styles.circle}></div>
-                    <img
+              
+                    <Image
                         src="./saddam.jpg"
                         alt="Luis Oenrique"
                         className={styles.profileImage}
