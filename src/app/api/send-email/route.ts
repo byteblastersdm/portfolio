@@ -15,16 +15,16 @@ export async function POST(req: Request) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'your-email@gmail.com', // Replace with your email
-        pass: 'your-app-password',    // Replace with your email app password
+        user: 'saddam.irake.786@gmail.com', // Replace with your email
+        pass: 'lmfr wgvv nnea lonq',    // Replace with your email app password
       },
     });
 
     // Define the email options
     const mailOptions = {
-      from: 'your-email@gmail.com', // Replace with your email
-      to: 'recipient-email@gmail.com', // Replace with the recipient's email
-      subject: `Message from ${name} (${email})`,
+      from: email, // Replace with your email
+      to: 'saddam.irake.786@gmail.com', // Replace with the recipient's email
+      subject: `New Contact Form Submission from ${name} (${email})`,
       text: message,
     };
 

@@ -39,9 +39,11 @@ const PortfolioHeader: React.FC = () => {
                     <div className={styles.circle}></div>
               
                     <Image
-                        src="./saddam.jpg"
+                        src="/saddam.jpg"
                         alt="Luis Oenrique"
                         className={styles.profileImage}
+                        width={300}
+                        height={300}
                     />
                 </div>
             </div>
