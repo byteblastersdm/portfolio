@@ -1,7 +1,7 @@
 "use client";
 import { AppBar, Toolbar, Typography, Box, Button, IconButton, Drawer, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import { useState } from 'react';
 import Link from 'next/link';
 import PortfolioHeader from '@/components/PortfolioHeader';
@@ -197,19 +197,19 @@ export default function Home() {
           Contact Me
         </Typography>
         <Typography variant="body1" sx={{ mb: 2 }}>
-          Email: <a href="mailto:yourname@example.com">yourname@example.com</a>
+          Email: <a href="mailto:saddam.irake.786@gmail.com">yourname@example.com</a>
         </Typography>
         <Typography variant="body1">
           LinkedIn:{' '}
-          <a href="https://linkedin.com/in/your-profile">
+          <a style={{color:'#1976d2'}} href="https://www.linkedin.com/in/saddam-irake-417a211a2/">
             linkedin.com/in/your-profile
           </a>
         </Typography>
-        <Typography variant="h4" sx={{ mb: 3 }}>
-          <Link href="/contact">
-            <button>Contact Us</button>
-          </Link>
+
+        <Typography variant="body1" sx={{ mb: 2 }}>
+          For any query: <a style={{color:'#1976d2'}} href="/contact">click</a>
         </Typography>
+     
       </Box>
 
       {/* Footer Section */}
