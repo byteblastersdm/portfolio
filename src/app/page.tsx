@@ -1,9 +1,8 @@
 "use client";
 import { AppBar, Toolbar, Typography, Box, Button, IconButton, Drawer, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { color, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 import { useState } from 'react';
-import Link from 'next/link';
 import PortfolioHeader from '@/components/PortfolioHeader';
 
 // Define animation variants for transitions
