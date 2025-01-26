@@ -2,58 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.hello{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 
-.container {
-  margin: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-
-
-
-/* src/styles/contact.module.css */
-
-/* Scoped local class for the form element */
-.form {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Scoped local class for the textarea */
-.textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-/* Scoped local class for the button */
-.button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Width and Height of the scrollbar track */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 12px;
   }
-}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Handle on active */
+  ::-webkit-scrollbar-thumb:active {
+    background: #333;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #2bd0e6 14%, #999d96 64%);
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+  textarea{
+    resize: none;
+  }
+
+  h1{
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+
+  .cv-container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cv-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .cv-header p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .cv-content {
+    margin-top: 20px;
+  }
+  
+  .cv-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .cv-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cv-content ul li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .job, .education {
+    margin-bottom: 20px;
+  }
+  
+  .download-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .download-btn:hover {
+    background-color: #45a049;
+  }
+  

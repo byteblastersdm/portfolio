@@ -1,14 +1,14 @@
+import ContactForm from '@/components/form/ContactForm'
+import Contact from '@/components/ui/Contact'
+import Image from 'next/image'
+import Link from 'next/link'
 
-import React from 'react';
-import ContactForm from '../../components/ContactForm';
+import React from 'react'
 
-const ContactPage: React.FC = () => {
+const page = () => {
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <ContactForm />
-    </div>
-  );
-};
+   <Contact/>
+  )
+}
 
-export default ContactPage;
+export default page
