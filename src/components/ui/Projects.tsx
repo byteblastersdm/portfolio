@@ -46,7 +46,7 @@ const projects = [
     name: 'Saddam Irake',
     description: 'My old portfolio website designed in HTML, CSS, JS, and PHP.',
     image: '/port.png',
-    link: 'https://rathin.rf.gd/',
+    link: 'https://saddam.rf.gd/',
     tech: ['HTML', 'CSS', 'PHP'],
   },
   {

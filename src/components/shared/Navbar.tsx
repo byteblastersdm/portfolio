@@ -13,9 +13,9 @@ const navlinks = [
 ];
 
 const socialLinks = [
-  { name: "Github", link: "https://github.com/rathin-gorai/", icon: '/github.png' },
-  {name:"Instagram",link:"https://www.instagram.com/rathin_gorai/",icon:'/instagram.png'},
-  {name:"LinkedIn",link:"https://www.linkedin.com/in/rathin-gorai/",icon:'/linkedin.png'}
+  { name: "Github", link: "https://github.com/byteblastersdm/", icon: '/github.png' },
+  // {name:"Instagram",link:"https://www.instagram.com/rathin_gorai/",icon:'/instagram.png'},
+  {name:"LinkedIn",link:"https://www.linkedin.com/in/saddam-irake-417a211a2/",icon:'/linkedin.png'}
 ]
 const Navbar = () => {
   const name = 'Saddam Irake'

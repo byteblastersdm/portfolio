@@ -36,9 +36,9 @@ const Hero = () => {
                     can follow me on : 
                 </p>
                     <div className='flex gap-4 items-center justify-center'>
-                        <Link href='https://www.instagram.com' target='_blank'><Image src='/instagram.png' alt='insta' width={30} height={30} /></Link>
-                        <Link href='https://www.linkedin.com/in' target='_blank'><Image src='/linkedin.png' alt='facebook' width={30} height={30} /></Link>
-                        <Link href='https://www.github.com/' target='_blank'><Image src='/github.png' alt='facebook' width={30} height={30} /></Link>
+                        {/* <Link href='https://www.instagram.com' target='_blank'><Image src='/instagram.png' alt='insta' width={30} height={30} /></Link> */}
+                        <Link href='https://www.linkedin.com/in/saddam-irake-417a211a2/' target='_blank'><Image src='/linkedin.png' alt='facebook' width={30} height={30} /></Link>
+                        <Link href='https://github.com/byteblastersdm/' target='_blank'><Image src='/github.png' alt='facebook' width={30} height={30} /></Link>
                         
                         
                         

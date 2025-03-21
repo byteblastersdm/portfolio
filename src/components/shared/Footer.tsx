@@ -52,23 +52,24 @@ const Footer = () => {
               saddam.irake.786@gmail.com
             </Link>
           </p>
-          <p className="text-gray-600">Phone: +91 7091021058</p>
+          <p className="text-gray-600">Phone: +91 8936846326</p>
         </div>
 
         {/* Social Media */}
         <div>
           <h3 className="text-lg font-semibold text-gray-800 mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <Link href="https://www.instagram.com" target="_blank">
-              <Image src="/instagram.png" alt="Instagram" width={30} height={30} />
+            <Link href="https://github.com/byteblastersdm/" target="_blank">
+              {/* <Image src="/instagram.png" alt="Instagram" width={30} height={30} /> */}
+              <Image src='/github.png' alt='facebook' width={30} height={30} />
             </Link>
-            <Link href="https://www.facebook.com" target="_blank">
+            {/* <Link href="https://www.facebook.com" target="_blank">
               <Image src="/facebook.png" alt="Facebook" width={30} height={30} />
-            </Link>
-            <Link href="https://www.twitter.com" target="_blank">
-              {/* <Image src="/twitter.png" alt="Twitter" width={30} height={30} /> */}
-            </Link>
-            <Link href="https://www.linkedin.com" target="_blank">
+            </Link> */}
+            {/* <Link href="https://www.twitter.com" target="_blank">
+              <Image src="/twitter.png" alt="Twitter" width={30} height={30} />
+            </Link> */}
+            <Link href="https://www.linkedin.com/in/saddam-irake-417a211a2/" target="_blank">
               <Image src="/linkedin.png" alt="LinkedIn" width={30} height={30} />
             </Link>
           </div>
