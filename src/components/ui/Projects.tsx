@@ -50,6 +50,13 @@ const projects = [
     tech: ['Next.js', 'React', 'Node.js'], // Technologies used
   },
   {
+    name: 'Desktop Print Service',
+    description: 'This is a project based on Silent Printing it connects with the server using socket-io and get pdf buffer as payload and directly print the pdf from configured local printer. Developed in Angular, Node.js and Electron.',
+    image: '/printservce.png',
+    link: '',
+    tech: ['Angular', 'Node.Js', 'Electron'], // Technologies used
+  },
+  {
     name: 'Doc-Scheduler',
     description: 'A project for booking appointments with doctors. Developed in Next.js.',
     image: '/doc.png',
