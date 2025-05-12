@@ -56,7 +56,7 @@ const tech = [
         name: 'Desktop Development',
         technologies: [
             { name: 'Electron.js', icon: <SiElectron />, url: 'https://www.electronjs.org/' },
-            { name: 'InstallForge (Installer Creation)' },
+            // { name: 'InstallForge (Installer Creation)' },
         ],
     },
     {
@@ -68,7 +68,7 @@ const tech = [
             { name: 'Figma', icon: <FaFigma />, url: 'https://www.figma.com/' },
             { name: 'Netlify', icon: <SiNetlify />, url: 'https://www.netlify.com/' },
             { name: 'Vercel', icon: <SiVercel />, url: 'https://vercel.com/' },
-            { name: 'Heroku', icon: <SiHeroku />, url: 'https://www.heroku.com/' },
+            // { name: 'Heroku', icon: <SiHeroku />, url: 'https://www.heroku.com/' },
         ],
     },
     {

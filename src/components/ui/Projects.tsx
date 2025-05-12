@@ -7,6 +7,41 @@ import Link from 'next/link';
 import { IconBrandReact, IconBrandNextjs, IconBrandJavascript, IconBrandHtml5, IconBrandCss3 } from '@tabler/icons-react';  // Add more icons as needed
 
 const projects = [
+   {
+    name: 'theSpot Mobile Application',
+    description: 'This is a project based on social media (Android & IOS). Developed in react native cli, node.js, socket-io and postgres(Prisma ORM).',
+    image: '/theSpot.png',
+    link: 'N/A',
+    tech: ['React Native'], // Technologies used
+  },
+  {
+    name: 'IntelliBooks Admin Application',
+    description: 'This is a project based on SaaS-based restaurant management system ordering pos and inventory management. Developed in Angular, Node.js, socket-io and Postgres(Prisma ORM).',
+    image: '/intellibooks-admin.png',
+    link: 'https://rst.intellibooks.io/',
+    tech: ['Angular', 'Node.js', 'Postgres'], // Technologies used
+  },
+  {
+    name: 'IntelliBooks Customer Web Application',
+    description: 'This is a project based on SaaS-based restaurant ordering site. Developed in Next.js and socket-io.',
+    image: '/wokbox.png',
+    link: 'https://restaurant.site.intellibooks.io/',
+    tech: ['next.js'], // Technologies used
+  },
+  {
+    name: 'IntelliBooks Mobile Application',
+    description: 'This is a project based on SaaS-based restaurant ordering Mobile Application (Android & IOS). Developed in React Native expo, node.js and socket-io.',
+    image: '/mobileApp.png',
+    link: 'https://play.google.com/store/apps/details?id=com.jipl.intelliorder',
+    tech: ['React Native'], // Technologies used
+  },
+  {
+    name: 'IntelliBooks Desktop Application',
+    description: 'This is a project based on SaaS-based restaurant online/offline pos. Developed in next.js, node.js, electron, sqlite(Prisma ORM), graphql and socket-io',
+    image: '/intellibooks-admin.png',
+    link: 'https://rst.intellibooks.io/',
+    tech: ['next.js, Node.js, electron, sqlite'], // Technologies used
+  },
   {
     name: 'Annadata',
     description: 'This is a project based on collecting extra food from various places. Developed in Next.js.',
@@ -18,7 +53,7 @@ const projects = [
     name: 'Doc-Scheduler',
     description: 'A project for booking appointments with doctors. Developed in Next.js.',
     image: '/doc.png',
-    link: 'https://doc-scheduler.vercel.app/',
+    link: 'https://doc-scheduler.vercel.com/',
     tech: ['Next.js', 'React'],
   },
   {
@@ -41,27 +76,6 @@ const projects = [
     image: '/projects4you.png',
     link: 'https://projects4you.in/',
     tech: ['React', 'Node.js'],
-  },
-  {
-    name: 'Saddam Irake',
-    description: 'My old portfolio website designed in HTML, CSS, JS, and PHP.',
-    image: '/port.png',
-    link: 'https://saddam.rf.gd/',
-    tech: ['HTML', 'CSS', 'PHP'],
-  },
-  {
-    name: 'Nexon',
-    description: 'A website showcasing IoT projects and functionalities. Developed in PHP.',
-    image: '/nexon.png',
-    link: 'https://nexon.rf.gd/',
-    tech: ['PHP'],
-  },
-  {
-    name: 'Engineer Gyan',
-    description: 'A website for content related to engineering students. Designed in PHP.',
-    image: '/engineergyan.png',
-    link: 'http://engineergyan.great-site.net/',
-    tech: ['PHP'],
   },
 ];
 
@@ -104,7 +118,7 @@ const Projects = () => {
                     src={project.image}
                     alt={project.name}
                     fill
-                    className="rounded-lg object-cover"
+                    className="rounded-lg object-fit"
                   />
                 </div>
                 <h4 className="text-xl font-bold mt-4">{project.name}</h4>

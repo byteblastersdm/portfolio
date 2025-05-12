@@ -27,7 +27,7 @@ const Hero = () => {
                 </p>
                 <div className='flex gap-5 md:mt-10 mt-5'>
                     <Link href={'#projects'} className='md:px-6 px-5 md:text-lg text-base md:py-3 py-2 rounded-lg bg-gray-700 hover:bg-gray-900 text-white'>My Projects</Link>
-                    <Link href='#' target='_blank'>
+                    <Link href='./Saddam_cv.pdf' target='_blank'>
                     <button className='md:px-6 px-5 md:text-lg text-base md:py-3 py-2 rounded-lg bg-gray-300 hover:bg-gray-300 text-gray-900'>Download CV</button></Link>
                 </div>
             </div>
