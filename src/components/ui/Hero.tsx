@@ -10,7 +10,7 @@ const Hero = () => {
     return (
         <Wrapper className='min-h-screen flex items-center pt-20 pb-10 relative overflow-hidden'>
             <div className="z-10 w-full relative">
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
@@ -27,20 +27,20 @@ const Hero = () => {
                             a Full Stack Developer.
                         </span>
                     </h2>
-                    
-                    <motion.div 
+
+                    <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.3, duration: 0.8 }}
                         className='md:w-2/3 w-full text-gray-400 md:leading-relaxed md:text-xl text-lg md:mt-8 mt-6'
                     >
                         <p>
-                            With 4.5+ years of experience building scalable web, mobile, and desktop applications. 
+                            With 4.5+ years of experience building scalable web, mobile, and desktop applications.
                             Strong expertise in the PERN stack—PostgreSQL, Express.js, React.js, and Node.js—along with Python, AWS, and AI integrations.
                         </p>
                     </motion.div>
 
-                    <motion.div 
+                    <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.5, duration: 0.5 }}
@@ -58,7 +58,7 @@ const Hero = () => {
                     </motion.div>
                 </motion.div>
 
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8, duration: 1 }}
@@ -78,7 +78,7 @@ const Hero = () => {
                     </div>
                 </motion.div>
             </div>
-            
+
             {/* Ambient Backgrounds */}
             <div className='bg-gradient-blur h-[500px] w-[500px] bg-indigo-600/30 top-0 right-0 translate-x-1/3 -translate-y-1/3' />
             <div className='bg-gradient-blur h-[600px] w-[600px] bg-pink-600/20 bottom-0 left-0 -translate-x-1/4 translate-y-1/4' />

@@ -56,15 +56,15 @@ const Projects = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0f1115] to-transparent opacity-80" />
                   </div>
-                  
+
                   <div className="p-6 flex flex-col flex-grow z-10 -mt-8">
                     <h4 className="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">{project.name}</h4>
                     <p className="text-sm text-gray-400 mb-4 flex-grow leading-relaxed">{project.description}</p>
-                    
+
                     <div className="flex flex-wrap gap-2 mt-auto">
                       {project.tech.map((tech, idx) => (
                         <span key={idx} className="flex items-center gap-1 text-xs font-medium px-3 py-1 rounded-full bg-gray-800 border border-gray-700 text-gray-300">
-                          {techIcons[tech] || null} 
+                          {techIcons[tech] || null}
                           {tech}
                         </span>
                       ))}
@@ -76,7 +76,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      
+
       {/* Ambient Backgrounds */}
       <div className="bg-gradient-blur h-[500px] w-[500px] bg-purple-500/10 top-0 right-1/4 -translate-y-1/4" />
       <div className="bg-gradient-blur h-[600px] w-[600px] bg-indigo-500/10 bottom-0 left-1/4 translate-y-1/4" />

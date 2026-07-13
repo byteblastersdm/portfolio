@@ -133,7 +133,7 @@ const Tech = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Ambient Backgrounds */}
       <div className="bg-gradient-blur h-[400px] w-[400px] bg-pink-500/10 top-1/4 right-0" />
       <div className="bg-gradient-blur h-[500px] w-[500px] bg-indigo-500/10 bottom-1/4 left-0 -translate-x-1/2" />

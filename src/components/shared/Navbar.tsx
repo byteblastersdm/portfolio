@@ -17,8 +17,8 @@ const navlinks = [
 ];
 
 const socialLinks = [
-  { name: "Github", link: "https://github.com/byteblastersdm/", icon: <FaGithub size={24}/> },
-  { name: "LinkedIn", link: "https://www.linkedin.com/in/saddam-irake-417a211a2/", icon: <FaLinkedin size={24}/> }
+  { name: "Github", link: "https://github.com/byteblastersdm/", icon: <FaGithub size={24} /> },
+  { name: "LinkedIn", link: "https://www.linkedin.com/in/saddam-irake-417a211a2/", icon: <FaLinkedin size={24} /> }
 ];
 
 const Navbar = () => {
@@ -80,7 +80,7 @@ const Navbar = () => {
                   <Link href={link.link}>{link.name}</Link>
                 </li>
               ))}
-              
+
               <div className="mt-8">
                 <p className="text-xs tracking-[5px] text-gray-500 mb-4">FOLLOW</p>
                 <div className="flex gap-4">

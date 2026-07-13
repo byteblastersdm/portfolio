@@ -9,12 +9,12 @@ import Experience from "@/components/ui/Experience";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <Hero/>
-      <About/>
-      <Experience/>
-      <Projects/>
-      <Tech/>
-      <Contact/>
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Tech />
+      <Contact />
     </main>
   )
 }

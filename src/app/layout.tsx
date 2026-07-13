@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://saddam-irake.vercel.app', 
+    url: 'https://saddam-irake.vercel.app',
     title: 'Saddam Irake | Full Stack Developer',
     description: 'Explore the portfolio of Saddam Irake, featuring high-impact solutions across SaaS, FinTech, and AI automation.',
     siteName: 'Saddam Irake Portfolio',
     images: [
       {
-        url: '/character.svg', 
+        url: '/character.svg',
         width: 800,
         height: 600,
         alt: 'Saddam Irake Portfolio',
@@ -70,10 +70,10 @@ export default function RootLayout({
             border: '1px solid rgba(255,255,255,0.1)'
           }
         }} />
-        <Navbar/>
+        <Navbar />
         {children}
         <Chatbot />
-        <Footer/>
+        <Footer />
       </body>
     </html>
   )
